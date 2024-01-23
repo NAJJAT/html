@@ -1,0 +1,220 @@
+body {
+    background-color: #5e21ec;
+    font-family: 'Pacifico', cursive;
+    margin: 0px;
+  }
+  
+  .header {
+    width: 100%;
+    height: 100%;
+    padding-top: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: ;
+    background-color: #5e21ec;
+    padding: 10px;
+    z-index: 1;
+    margin-top: -26px;
+    
+  }
+  .logo {
+    width: 100px;
+    margin-left: 40px;
+    margin-top: 2px;
+    
+  
+  }
+  .logo img {
+    margin-top: 15px;
+    width: 200px;
+  }
+  .navigation {
+    margin-right: 40px;
+    margin-top: 2px;
+    margin-bottom: 32px;
+    margin-left: 2px;
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navigation  :hover {
+    
+    color: #672feb;
+    transition: 0.5s;
+  }
+  .navigation ul {
+    margin-top: -35px;
+
+  margin: 0px;
+  padding: 0%;
+  }
+  .navigation ul li {
+    display: inline-block;
+    align-items: center;
+    text-align: start;
+    padding-left: 20px;
+  margin-right: 20px;
+    font-size: 18px;
+  }
+  .navigation ul li a {
+    text-decoration: none;
+
+    color: #ffffff;
+  }
+  .navigation ul li a.button{
+    background-color: #6935fa;
+    color: #fff;
+    padding: 5px 23px;
+    border-radius: 7px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 5px;
+  }
+  .navigation ul li a.button:hover{
+    background-color: #000000;
+    color: #fff;
+    transition: 0.5s;
+  }
+  .hero{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  
+  }
+  .hero-text{
+    flex: 1;
+    padding-right: 50px;
+    padding-bottom: 50px;
+  }
+  .hero-image{
+    flex: 1;
+  
+  }
+  .hero-text h1{
+    font-size: 70px;
+    color: purple;
+    font-family: 'Grape Nuts', cursive;
+    margin-left: 14px;
+  }
+  .hero-text h2{
+    font-size: 30px;
+    color: #000;
+    font-weight: normal;
+    font-family: 'Lemon', serif;
+    margin-left: 14px;
+  }
+  
+  .hello {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+
+  }
+ .hello > div {
+    width: 30%;
+    margin-right: 50px;
+   
+  }
+  
+.foto {
+    width: 5%;
+  
+    margin-right: 50px;
+  }
+  
+  .hello img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-right: 80px;
+  }
+  .buttons {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 115px;
+    margin: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+    color: #110d0d;
+    font-family: 'Pacifico', cursive;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 187px;
+    margin-top: 35px;
+  }
+  .buttons:hover {
+    background-color: #000000;
+    color: #fff;
+    transition: 0.5s;
+  }
+.deel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .bo {
+    width: 25%;
+    margin: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+    color: #110d0d;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+
+  }
+  .box{
+    color: #fff;
+
+  }
+ 
+  
+  .bo:hover{
+    background-color: #000000;
+    color: #fff;
+    transition: background-color 0.5s, color 0.5s, transform 0.5s; /* Apply transition to background-color, color, and transform */
+    transform: scale(1.1);
+  }
+ 
+.button {
+  display: flex;
+
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  width: 180px;
+  background-color: #6935fa;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 7px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 133px;
+  margin-top: 35px;
+
+}
+.button:hover {
+  background-color: #000000;
+  color: #fff;
+  transition: 0.5s;
+}
